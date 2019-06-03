@@ -1,4 +1,6 @@
-package "output"
+package output
+//package "output"
+// expect IDENT error ;-)
 
 import "fmt"
 

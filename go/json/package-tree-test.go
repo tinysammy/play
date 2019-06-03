@@ -7,7 +7,12 @@
 package main
 
 import "fmt"
+// let's use an alias to import our package
+import in  "github.com/tinysammy/play/go/json/input"
+import out "github.com/tinysammy/play/go/json/output"
 
 func main() {
-  fmt.Println("Hello World")
+  fmt.Println("package Hello main")
+  in.Hello()
+  out.Hello()
 }
